@@ -151,6 +151,18 @@ img.grayscale {
   background-size: cover;
 }
 
+.calloutBrotherhood {
+  color: #ffffff;
+  padding-top:7%;
+  height: 100%;
+  width: 100%;
+  background: url('/Images/Brotherhood.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .gallery {
   padding: 50px 0;
 }

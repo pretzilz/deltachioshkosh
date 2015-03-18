@@ -326,6 +326,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\brotherhood.jpg" />
+    <Content Include="Images\deltachilogo.png" />
+    <Content Include="Images\uwosh.png" />
     <Content Include="obj\Debug\deltachioshkosh.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\deltachioshkosh.dll" />
     <Content Include="obj\Debug\deltachioshkosh.pdb" />
@@ -400,7 +403,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
     <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="Views\" />
