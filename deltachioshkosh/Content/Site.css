@@ -186,6 +186,19 @@ footer {
     padding-right: 10px; 
 }
 
-.uwoshHeader {
-    
+.dChiRed {
+    background-color: #ca3d31;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.inputPadding {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.dChiBuff {
+    background-color :#f1bd19;
 }

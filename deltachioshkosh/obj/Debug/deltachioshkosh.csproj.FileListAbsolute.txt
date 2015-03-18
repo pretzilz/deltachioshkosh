@@ -3,3 +3,4 @@ C:\Users\Kurt\documents\visual studio 2013\Projects\deltachioshkosh\deltachioshk
 C:\Users\Kurt\documents\visual studio 2013\Projects\deltachioshkosh\deltachioshkosh\bin\deltachioshkosh.pdb
 C:\Users\Kurt\documents\visual studio 2013\Projects\deltachioshkosh\deltachioshkosh\obj\Debug\deltachioshkosh.dll
 C:\Users\Kurt\documents\visual studio 2013\Projects\deltachioshkosh\deltachioshkosh\obj\Debug\deltachioshkosh.pdb
+C:\Users\Kurt\documents\visual studio 2013\Projects\deltachioshkosh\deltachioshkosh\obj\Debug\deltachioshkosh.csprojResolveAssemblyReference.cache
