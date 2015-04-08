@@ -202,3 +202,16 @@ footer {
 .dChiBuff {
     background-color :#f1bd19;
 }
+
+.headerHeight {
+    height: 350px;
+}
+
+.historyBottomPadding {
+    padding-bottom: 40px;
+}
+
+.valuesTablePadding {
+    padding-left: 160px; /*todo: this sucks*/
+    padding-bottom: 20px;
+}
