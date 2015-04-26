@@ -1,4 +1,10 @@
-﻿/* smooth scrolling for scroll to top */
+﻿$(document).ready(function () {
+    debugger;
+    var windowHeight = window.innerHeight;
+    $("#headerImage").height(windowHeight - 470);
+});
+
+/* smooth scrolling for scroll to top */
 $('.scroll-top').click(function () {
     $('body,html').animate({ scrollTop: 0 }, 1000);
 })

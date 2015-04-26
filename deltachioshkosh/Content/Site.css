@@ -60,7 +60,7 @@ img.grayscale {
 }
 
 .navbar-bold.affix {
-  background-color:#33ee67;
+  background-color:#f1bd19;
 }
 
 .navbar-bold {
@@ -69,7 +69,7 @@ img.grayscale {
 }
 
 .navbar-bold li a:hover, .navbar-bold li.active {
-  background-color:#22dd56;
+  background-color:#f1bd19;
 }
 
 .vert {
@@ -142,25 +142,24 @@ img.grayscale {
 .callout {
   color: #ffffff;
   padding-top:7%;
-  height: 100%;
+  height: 75%;
   width: 100%;
-  background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+.calloutNationals {
+  background: url('http://deltachi.org/wp-content/uploads/2015/02/125th-Anniversary-Web-Banner2.jpg') no-repeat center center fixed; 
+}
+
 .calloutBrotherhood {
-  color: #ffffff;
-  padding-top:7%;
-  height: 100%;
-  width: 100%;
   background: url('/Images/Brotherhood.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+}
+
+.calloutChapter {
+    background-color: #ca3d31; 
 }
 
 .gallery {
@@ -207,11 +206,24 @@ footer {
     height: 350px;
 }
 
-.historyBottomPadding {
-    padding-bottom: 40px;
+
+#dChiTitle {
+    font-family: 'Lobster', cursive;
+}
+/*TODO fix this*/
+.dChiTitle {
+    font-family: 'Lobster', cursive;
 }
 
-.valuesTablePadding {
-    padding-left: 160px; /*todo: this sucks*/
-    padding-bottom: 20px;
+.valuesPaddingTop {
+    padding-top: 15px;
 }
+
+#headerImage {
+    height: 150px;
+}
+
+/*TODO: 
+    All headings need a different font - "The Delta Chi Fraternity" for example
+    Navbar length too long - extends outside of window
+*/

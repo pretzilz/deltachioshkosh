@@ -2,7 +2,8 @@
     Layout = "~/_SiteLayout.cshtml";
     Page.Title = "Home Page";
 }
-
+<!-- The font for the dChiTitle -->
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> 
 
 <div class="navbar navbar-fixed-top navbar-bold" data-spy="affix" data-offset-top="1000">
     <div class="container">
@@ -25,116 +26,54 @@
     </div>
 </div>
 
-<div class="header vert headerHeight">
-    <div class="container text-center">
 
-        <h1>Delta Chi Oshkosh</h1>
+
+<div id="headerImage" class="callout calloutBrotherhood"></div>
+
+
+<div class="header vert headerHeight" id ="logoHeader">
+    <div class="container text-center">
+        <!-- consider replacing with just the images i.e. http://www.uwwdx.org/-->
+        <h1 id="dChiTitle">Delta Chi Oshkosh</h1>
         <img src="/Images/deltachilogo.png" />
         <img src="/Images/uwosh.png" /> <!-- this needs to be transparent or something-->
     </div>
 </div>
-
-<div id="brotherhood" class="calloutBrotherhood">
+<div class="callout calloutChapter" id="sec2">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h1>Brotherhood</h1>
-                <p class="lead">The Most Popular Responsive Framework</p>
-            </div>
-        </div>
+        <h1 class="dChiTitle">Who We Are</h1>
+        The University of Wisconsin Oshkosh has had Delta Chi on their campus two times before our colony. This time we are here to stay, as our Founders' Shirts say, we are here to &quot;Redefine the college social fraternity.&quot; We are here to not only uphold our founding values, but to raise our fraternity to new heights. This does not come easily and we are determined to work hard and become a full fledged Delta Chi Chapter. We hope you will join us in that misson.
     </div>
 </div>
 
-<div class="featurette" id="sec2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h1>Amazing Features</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-2 col-md-offset-2 text-center">
-                <div class="featurette-item">
-                    <i class="icon-rocket"></i>
-                    <h4>Rocket</h4>
-                    <p>Up-up-and-away with this starter template.</p>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="featurette-item">
-                    <i class="icon-magnet"></i>
-                    <h4>Magnet</h4>
-                    <p>For you are a magnet and I am steel.</p>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="featurette-item">
-                    <i class="icon-shield"></i>
-                    <h4>Shield</h4>
-                    <p>Protect yourself. Don't design like it's 1999.</p>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="featurette-item">
-                    <i class="icon-pencil"></i>
-                    <h4>Scholar</h4>
-                    <p>Because lead pencils are pretty smart looking.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="callout" id="sec3">
+<div class="callout calloutNationals" id="sec3">
     <div class="vert">
         <div class="col-md-12 text-center"><h2>The Delta Chi Fraternity</h2></div>
         <div class="col-md-12 text-center">&nbsp;</div>
         <div class="text-center historyBottomPadding">
             The Delta Chi Fraternity was founded on October 13th, 1890 at Cornell University. Ever since then the men who have joined our numbers have sworn to uphold these four values:
         </div>
-        <div class="col-md-8 col-md-offset-2 text-center">
-            <table>
-                <tbody>
-                    <tr>
-                        <td class ="valuesTablePadding">
-                            <div class="col-sm-2"><img class="img-circle grayscale" src="http://api.randomuser.me/portraits/thumb/women/12.jpg"></div>
-                        </td>
-                        <td class="valuesTablePadding">
-                            <div class="col-sm-2"><img class="img-circle grayscale" src="http://api.randomuser.me/portraits/thumb/men/95.jpg"></div>
-                        </td>
-                        <td class="valuesTablePadding">
-                            <div class="col-sm-2"><img class="img-circle grayscale" src="http://api.randomuser.me/portraits/thumb/women/67.jpg"></div>
-                        </td>
-                        <td class="valuesTablePadding">
-                            <div class="col-sm-2"><img class="img-circle grayscale" src="http://api.randomuser.me/portraits/thumb/men/27.jpg"></div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="valuesTablePadding">
-                            Education
-                        </td> 
-                        <td class="valuesTablePadding">
-                            Justice
-                        </td>
-                        <td class="valuesTablePadding">
-                            Character
-                        </td>
-                        <td class="valuesTablePadding">
-                            Friendship
-                        </td>
-                    </tr>
-                   
-                </tbody>
-                
-            </table>
+        <div class="col-md-12 col-md-offset-2 text-center valuesPaddingTop">
+            <div class="row hidden-xs">
+                <div class="col-sm-2"><img class="img-circle" src="http://api.randomuser.me/portraits/thumb/women/12.jpg"></div>
+                <div class="col-sm-2"><img class="img-circle" src="http://api.randomuser.me/portraits/thumb/men/95.jpg"></div>
+                <div class="col-sm-2"><img class="img-circle" src="http://api.randomuser.me/portraits/thumb/women/67.jpg"></div>
+                <div class="col-sm-2"><img class="img-circle" src="http://api.randomuser.me/portraits/thumb/men/27.jpg"></div>
+            </div>
+            <div class="row hidden-xs valuesPaddingTop">
+                <div class="col-sm-2">Education</div>
+                <div class="col-sm-2">Justice</div>
+                <div class="col-sm-2">Character</div>
+                <div class="col-sm-2">Friendship</div>
+            </div>
         </div>
     
     </div>
     
-    </div>
-<hr>
+</div>
 
-<div class="gallery">
+
+@*<div class="gallery">
 
     <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center">
@@ -245,7 +184,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>*@
 
 <div class="blurb dChiBuff">
     <div class="container">
@@ -291,6 +230,6 @@
     </div>
 </footer>
 
-<ul class="nav pull-right scroll-top">
+@*<ul class="nav pull-right scroll-top">
     <li><a href="#" title="Scroll to top"><i class="icon-chevron-up icon-3x"></i></a></li>
-</ul>
+</ul>*@
