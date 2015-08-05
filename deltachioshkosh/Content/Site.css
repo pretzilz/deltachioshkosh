@@ -8,6 +8,7 @@ body {
   height: 100%;
   width: 100%;
   font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: black;
 }
 
 /* fix bs3 horizontal scrollbar bug */
@@ -85,7 +86,6 @@ img.grayscale {
   color:#fff;
   margin-left:-5px;
   margin-bottom:5px;
-  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .header .lead {
@@ -151,15 +151,21 @@ img.grayscale {
 }
 
 .calloutNationals {
-  background: url('http://deltachi.org/wp-content/uploads/2015/02/125th-Anniversary-Web-Banner2.jpg') no-repeat center center fixed; 
+  background: url('http://deltachi.org/wp-content/uploads/2015/02/125th-Anniversary-Web-Banner2.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .calloutBrotherhood {
-  background: url('/Images/Brotherhood.jpg') no-repeat center center fixed; 
+    background: url('/Images/Brotherhood.jpg') no-repeat center center fixed;
+    height: 500px;
 }
 
 .calloutChapter {
-    background-color: #ca3d31; 
+    background-image: url('/Images/alumnichancellor.jpg'), url('/Images/rosesale.jpg'), url('/Images/initiation.jpg');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left, center, right;
+    background-attachment: fixed, fixed, fixed;
+    opacity: 0.4;
 }
 
 .gallery {
@@ -206,13 +212,8 @@ footer {
     height: 350px;
 }
 
-
-#dChiTitle {
-    font-family: 'Lobster', cursive;
-}
-/*TODO fix this*/
 .dChiTitle {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', serif;
 }
 
 .valuesPaddingTop {
@@ -223,7 +224,22 @@ footer {
     height: 150px;
 }
 
+.headerText {
+    margin-top: -70px;
+}
+
+.downArrow {
+    background-color: transparent;
+    display: none;
+}
+
+.historyText {
+   opacity: 0;
+}
+
+
 /*TODO: 
-    All headings need a different font - "The Delta Chi Fraternity" for example
+    Get contact form working
+    Add more content, damn it!
     Navbar length too long - extends outside of window
 */

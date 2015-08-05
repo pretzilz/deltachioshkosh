@@ -1,7 +1,6 @@
 ﻿$(document).ready(function () {
-    debugger;
     var windowHeight = window.innerHeight;
-    $("#headerImage").height(windowHeight - 470);
+    $("#headerImage").height(windowHeight - 500);
 });
 
 /* smooth scrolling for scroll to top */
