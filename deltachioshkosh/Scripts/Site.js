@@ -1,5 +1,4 @@
 ﻿$(document).ready(function () {
-    debugger;
     var windowHeight = window.innerHeight;
     $("#headerImage").height(windowHeight - 470);
 });

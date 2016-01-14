@@ -3,7 +3,7 @@
     Page.Title = "Home Page";
 }
 <!-- The font for the dChiTitle -->
-<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> 
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
 <div class="navbar navbar-fixed-top navbar-bold" data-spy="affix" data-offset-top="1000">
     <div class="container">
@@ -44,32 +44,50 @@
         <h1 class="dChiTitle">Who We Are</h1>
         The University of Wisconsin Oshkosh has had Delta Chi on their campus two times before our colony. This time we are here to stay, as our Founders' Shirts say, we are here to &quot;Redefine the college social fraternity.&quot; We are here to not only uphold our founding values, but to raise our fraternity to new heights. This does not come easily and we are determined to work hard and become a full fledged Delta Chi Chapter. We hope you will join us in that misson.
     </div>
+
+    <div class="container">
+        <h1 class="dChiTitle">Some more things</h1>
+        Here's some more things that we think you might find kinda neat.
+    </div>
 </div>
 
 <div class="callout calloutNationals" id="sec3">
-    <div class="vert">
-        <div class="col-md-12 text-center"><h2>The Delta Chi Fraternity</h2></div>
-        <div class="col-md-12 text-center">&nbsp;</div>
-        <div class="text-center historyBottomPadding">
-            The Delta Chi Fraternity was founded on October 13th, 1890 at Cornell University. Ever since then the men who have joined our numbers have sworn to uphold these four values:
-        </div>
-        <div class="col-md-12 col-md-offset-2 text-center valuesPaddingTop">
-            <div class="row hidden-xs">
-                <div class="col-sm-2"><img class="img-circle" src="http://api.randomuser.me/portraits/thumb/women/12.jpg"></div>
-                <div class="col-sm-2"><img class="img-circle" src="http://api.randomuser.me/portraits/thumb/men/95.jpg"></div>
-                <div class="col-sm-2"><img class="img-circle" src="http://api.randomuser.me/portraits/thumb/women/67.jpg"></div>
-                <div class="col-sm-2"><img class="img-circle" src="http://api.randomuser.me/portraits/thumb/men/27.jpg"></div>
-            </div>
-            <div class="row hidden-xs valuesPaddingTop">
-                <div class="col-sm-2">Education</div>
-                <div class="col-sm-2">Justice</div>
-                <div class="col-sm-2">Character</div>
-                <div class="col-sm-2">Friendship</div>
+    <div class ="container transparentGrey verticalCenter">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class ="dChiTitle">The Delta Chi Fraternity</h1>
             </div>
         </div>
-    
+        <div class="row col-md-12">
+            <div class="text-center historyBottomPadding">
+                The Delta Chi Fraternity was founded on October 13th, 1890 at Cornell University. Ever since then the men who have joined our numbers have sworn to uphold these four values:
+            </div>
+        </div>
+
+        <div class="row col-md-12 text-center">
+            <div class="col-sm-3">
+                <img class="img-circle" src="http://api.randomuser.me/portraits/thumb/women/12.jpg">
+            </div>
+            <div class="col-sm-3">
+                <img class="img-circle" src="http://api.randomuser.me/portraits/thumb/men/95.jpg">
+            </div>
+            <div class="col-sm-3">
+                <img class="img-circle" src="http://api.randomuser.me/portraits/thumb/women/67.jpg">
+            </div>
+            <div class="col-sm-3">
+                <img class="img-circle" src="http://api.randomuser.me/portraits/thumb/men/27.jpg">
+            </div>
+        </div>
+
+        <div class="row valuesPaddingTop col-md-12 text-center">
+            <div class="col-sm-3">Education</div>
+            <div class="col-sm-3">Justice</div>
+            <div class="col-sm-3">Character</div>
+            <div class="col-sm-3">Friendship</div>
+        </div>
     </div>
     
+
 </div>
 
 
@@ -191,44 +209,41 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center">
                 <h1>Interested? Have questions?</h1>
-                <h2 class ="italic">Contact us using the form below.</h2>
+                <h2 class="italic">Contact us using the form below.</h2>
             </div>
-            <div id="contactForm" class="col-md-6 col-md-offset-3 text-center">
-                <table>
-                    <tr>
-                        <td class ="inputPadding">
-                            <label>Name: <input type="text" id="nameField" /></label>
-                        </td>
-                        <td class ="inputPadding">
-                            <label>Email: <input type="text" id="emailField" /></label>
-                        </td>
-                    </tr>
-                    <tr class="col-md-6 col-md-offset-3 text-center">
-                        <td>
-                            <label><input type="radio" id="moreInformation" /> I would like more information</label>
-                        </td>
-                        <td>
-                            <label><input type ="radio" id ="hasQuestion"/> I have a question!</label>
-                        </td>
 
-                    </tr>
-                </table>
-
-            </div>
         </div>
+        <form class="col-md-6 col-md-offset-3 text-center">
+            <div class="form-group">
+                <label for="emailInput">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="nameInput">Name</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
+            </div>
+      
+            <div class="radio">
+                <label>
+                    <input type="radio" name ="typeRadio"/> I have a question!
+                </label>
+                <label>
+                    <input type ="radio" name ="typeRadio"/> I need more information!
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
     </div>
 </div>
 
 
-<footer>
-    <div class="container">
+    <div class="container-fluid dChiBuff">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center">
-                <p>Template by Bootly. Built upon by Kurt Kaufman & Zackry Wiese.</p>
+                <p>Template by Bootly. Built upon by Kurt <i>&quot;the baddest bitch&quot;</i> Kaufman</p>
             </div>
         </div>
     </div>
-</footer>
 
 @*<ul class="nav pull-right scroll-top">
     <li><a href="#" title="Scroll to top"><i class="icon-chevron-up icon-3x"></i></a></li>

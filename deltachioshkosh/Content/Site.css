@@ -151,7 +151,7 @@ img.grayscale {
 }
 
 .calloutNationals {
-  background: url('http://deltachi.org/wp-content/uploads/2015/02/125th-Anniversary-Web-Banner2.jpg') no-repeat center center fixed; 
+  background: url('http://deltachi.org/wp-content/uploads/2015/02/125th-Anniversary-Web-Banner2.jpg') center center;
 }
 
 .calloutBrotherhood {
@@ -208,11 +208,11 @@ footer {
 
 
 #dChiTitle {
-    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
 }
 /*TODO fix this*/
 .dChiTitle {
-    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 .valuesPaddingTop {
@@ -223,6 +223,24 @@ footer {
     height: 150px;
 }
 
+.transparentGrey {
+    background-color: rgba(100, 100, 100, .8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    /* For IE 8*/
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    z-index:10;
+    padding:10px;
+    -moz-box-shadow:0px 0px 7px #000000;
+    -webkit-box-shadow:0px 0px 7px #000000;
+    box-shadow:0px 0px 7px #000000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; 
+}
+
+.verticalCenter {
+    vertical-align: middle;
+}
 /*TODO: 
     All headings need a different font - "The Delta Chi Fraternity" for example
     Navbar length too long - extends outside of window
