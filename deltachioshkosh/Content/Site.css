@@ -155,9 +155,16 @@ img.grayscale {
 }
 
 .calloutBrotherhood {
-  background: url('/Images/Brotherhood.jpg') no-repeat center center fixed; 
+  background: url('/Images/top photo.jpg') no-repeat center center fixed; 
 }
 
+#headerText {
+    margin-top: -5%;
+}
+
+.imageMarginTop {
+    margin-top: -10%;
+}
 .calloutChapter {
     background-color: #ca3d31; 
 }
@@ -210,17 +217,32 @@ footer {
 #dChiTitle {
     font-family: 'Pacifico', cursive;
 }
-/*TODO fix this*/
+
 .dChiTitle {
     font-family: 'Pacifico', cursive;
 }
 
-.valuesPaddingTop {
+.subTitle {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.paddingTop15px {
     padding-top: 15px;
 }
 
 #headerImage {
     height: 150px;
+}
+
+.segwayText {
+    padding-top: 50px;
+    font-size: 5em;
+    color: black;
+}
+
+.segwayTextCallout {
+    margin-top: -20px;
+    height: 20%;
 }
 
 .transparentGrey {
